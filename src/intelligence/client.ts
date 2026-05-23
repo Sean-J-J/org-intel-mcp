@@ -75,6 +75,8 @@ export class DeepSeekClient {
 
         if (jsonMode) {
           body.response_format = { type: "json_object" };
+          // DeepSeek requires the prompt to contain "json" when using json_object mode
+          messages[messages.length - 1].content += "\nRespond in JSON format.";
         }
 
         if (!thinking) {

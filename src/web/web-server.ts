@@ -651,7 +651,7 @@ async function startResearch() {
         break;
       }
       buffer += decoder.decode(value, { stream: true });
-      const lines = buffer.split("\\n");
+      const lines = buffer.split(String.fromCharCode(10));
       buffer = lines.pop() || "";
 
       for (var i = 0; i < lines.length; i++) {

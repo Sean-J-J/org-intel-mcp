@@ -220,9 +220,19 @@ app.post("/api/research", requireAuth, (req, res) => {
     "X-Accel-Buffering": "no",
   });
 
+  // Flush headers immediately so the browser can start receiving SSE
+  res.flushHeaders();
+
   const send = (event: string, data: Record<string, any>) => {
     res.write(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`);
+    // Express 5: force flush buffered data to the client
+    if (typeof (res as any).flush === "function") {
+      (res as any).flush();
+    }
   };
+
+  // Send initial event to establish the SSE connection
+  send("connected", { message: "Research started" });
 
   const slug = companyName.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   const dateStr = new Date().toISOString().split("T")[0];
@@ -607,36 +617,45 @@ async function startResearch() {
     const reader = resp.body.getReader();
     const decoder = new TextDecoder();
     let buffer = "";
+    let eventType = "";
+
+    function processLine(line) {
+      if (line.startsWith("event: ")) {
+        eventType = line.slice(7);
+      } else if (line.startsWith("data: ")) {
+        try {
+          var data = JSON.parse(line.slice(6));
+        } catch(e) { return; }
+
+        if (eventType === "progress") {
+          progressItems.innerHTML += '<div class="progress-item"><div class="dot"></div>' + escapeHtml(data.message) + '</div>';
+        } else if (eventType === "complete") {
+          progressItems.innerHTML += '<div class="progress-item done"><div class="dot"></div>Complete — saved to ' + escapeHtml(data.filename) + '</div>';
+          reportContent.textContent = data.report;
+          reportOutput.classList.add("visible");
+          reportOutput.scrollIntoView({ behavior: "smooth" });
+          loadHistory();
+        } else if (eventType === "error") {
+          errorMsg.textContent = data.message;
+          errorMsg.classList.add("visible");
+        }
+        eventType = "";
+      }
+    }
 
     while (true) {
       const { done, value } = await reader.read();
-      if (done) break;
+      // Process last chunk if stream ended
+      if (done) {
+        if (buffer) processLine(buffer);
+        break;
+      }
       buffer += decoder.decode(value, { stream: true });
-      const lines = buffer.split("\\n");
+      const lines = buffer.split("\n");
       buffer = lines.pop() || "";
 
-      for (const line of lines) {
-        if (line.startsWith("event: ")) {
-          var eventType = line.slice(7);
-        } else if (line.startsWith("data: ")) {
-          try {
-            var data = JSON.parse(line.slice(6));
-          } catch { continue; }
-
-          if (eventType === "progress") {
-            progressItems.innerHTML += '<div class="progress-item"><div class="dot"></div>' + escapeHtml(data.message) + '</div>';
-          } else if (eventType === "complete") {
-            progressItems.innerHTML += '<div class="progress-item done"><div class="dot"></div>Complete — saved to ' + escapeHtml(data.filename) + '</div>';
-            reportContent.textContent = data.report;
-            reportOutput.classList.add("visible");
-            reportOutput.scrollIntoView({ behavior: "smooth" });
-            loadHistory();
-          } else if (eventType === "error") {
-            errorMsg.textContent = data.message;
-            errorMsg.classList.add("visible");
-          }
-          eventType = "";
-        }
+      for (var i = 0; i < lines.length; i++) {
+        processLine(lines[i]);
       }
     }
   } catch (e) {

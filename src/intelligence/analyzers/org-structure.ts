@@ -1,7 +1,7 @@
 import { getDeepSeekClient } from "../client.js";
 import { ORG_STRUCTURE } from "../prompts.js";
 import { EntityExtractionResult, OrgStructureResult } from "../../types.js";
-import { getPhaseConfig } from "../../config.js";
+import { getPhaseConfig, getConfig } from "../../config.js";
 import { logger } from "../../utils/logger.js";
 
 export async function analyzeOrgStructure(
@@ -71,7 +71,3 @@ function extractTeams(text: string): OrgStructureResult["teams"] {
   return teams;
 }
 
-function getConfig() {
-  const { getConfig } = require("../../config.js");
-  return getConfig();
-}

@@ -1,6 +1,6 @@
 import { getDeepSeekClient } from "./client.js";
 import { ScoredFinding, VerifiedFindings, StructuredCompanyData } from "../types.js";
-import { getPhaseConfig } from "../config.js";
+import { getPhaseConfig, getConfig } from "../config.js";
 import { logger } from "../utils/logger.js";
 
 export async function crossVerify(
@@ -105,7 +105,3 @@ Task: For each discrepancy, explain which version is more likely correct and why
   return { consensus, discrepancies, summary };
 }
 
-function getConfig() {
-  const { getConfig } = require("../config.js");
-  return getConfig();
-}

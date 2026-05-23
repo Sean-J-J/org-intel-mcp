@@ -1,7 +1,7 @@
 import { getDeepSeekClient } from "../client.js";
 import { DEPARTMENT_CLASSIFICATION } from "../prompts.js";
 import { EntityExtractionResult, OrgStructureResult, ClassifiedDepartment } from "../../types.js";
-import { getPhaseConfig } from "../../config.js";
+import { getPhaseConfig, getConfig } from "../../config.js";
 import { logger } from "../../utils/logger.js";
 
 export async function classifyDepartments(
@@ -87,7 +87,3 @@ function parseClassifications(text: string, entities: EntityExtractionResult): C
   return result;
 }
 
-function getConfig() {
-  const { getConfig } = require("../../config.js");
-  return getConfig();
-}

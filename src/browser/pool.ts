@@ -1,3 +1,4 @@
+import { getConfig } from "../config.js";
 import { Browser, BrowserContext, Page } from "playwright";
 
 interface PooledPage {
@@ -166,7 +167,6 @@ let _pool: BrowserPool | null = null;
 
 export function getBrowserPool(): BrowserPool {
   if (!_pool) {
-    const { getConfig } = require("../config.js");
     const config = getConfig();
     _pool = new BrowserPool(config.browser.maxConcurrentPages, config.browser.headless);
   }

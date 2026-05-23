@@ -2,7 +2,7 @@ import { getDeepSeekClient } from "../client.js";
 import { ENTITY_EXTRACTION } from "../prompts.js";
 import { EntityExtractionResult, StructuredCompanyData } from "../../types.js";
 import { allocateContextBudget, estimateTokenCount } from "../../utils/text.js";
-import { getPhaseConfig } from "../../config.js";
+import { getPhaseConfig, getConfig } from "../../config.js";
 import { logger } from "../../utils/logger.js";
 
 export async function extractEntities(
@@ -43,7 +43,3 @@ export async function extractEntities(
   };
 }
 
-function getConfig() {
-  const { getConfig } = require("../../config.js");
-  return getConfig();
-}

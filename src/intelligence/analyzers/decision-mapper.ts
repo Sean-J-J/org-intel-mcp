@@ -1,7 +1,7 @@
 import { getDeepSeekClient } from "../client.js";
 import { DECISION_MAPPING } from "../prompts.js";
 import { ScoredFinding, DecisionMap, StructuredCompanyData } from "../../types.js";
-import { getPhaseConfig } from "../../config.js";
+import { getPhaseConfig, getConfig } from "../../config.js";
 import { logger } from "../../utils/logger.js";
 
 export async function mapDecisionAuthority(
@@ -130,7 +130,3 @@ function parseAlternatives(sections: Record<string, string>): string[] {
     .filter(Boolean);
 }
 
-function getConfig() {
-  const { getConfig } = require("../../config.js");
-  return getConfig();
-}

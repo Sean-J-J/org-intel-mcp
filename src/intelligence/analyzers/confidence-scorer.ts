@@ -7,7 +7,7 @@ import {
   ScoredFinding,
   StructuredCompanyData,
 } from "../../types.js";
-import { getPhaseConfig } from "../../config.js";
+import { getPhaseConfig, getConfig } from "../../config.js";
 import { logger } from "../../utils/logger.js";
 
 export async function scoreConfidence(
@@ -115,7 +115,3 @@ function preScoreFindings(
   return findings;
 }
 
-function getConfig() {
-  const { getConfig } = require("../../config.js");
-  return getConfig();
-}

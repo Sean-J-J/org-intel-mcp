@@ -541,9 +541,17 @@ async function loadHistory() {
       const d = new Date(r.date);
       const dateStr = d.toLocaleDateString("en-US", { month:"short", day:"numeric", year:"numeric" });
       const label = USER.isAdmin ? '<span class="user-label">' + escapeHtml(r.username) + '/</span> ' : '';
-      return '<div class="report-item" onclick="loadReport(\'' + escapeHtml(r.username) + "','" + escapeHtml(r.file) + '\')">'
+      return '<div class="report-item" data-username="' + escapeHtml(r.username) + '" data-file="' + escapeHtml(r.file) + '">'
         + label + escapeHtml(r.file) + '<br><span class="date">' + dateStr + '</span></div>';
     }).join("");
+
+    // Event delegation for history clicks
+    document.getElementById("reportList").addEventListener("click", function(e) {
+      var item = e.target.closest(".report-item");
+      if (item && item.dataset.username) {
+        loadReport(item.dataset.username, item.dataset.file);
+      }
+    });
   } catch (e) {
     console.error("Failed to load history", e);
   }

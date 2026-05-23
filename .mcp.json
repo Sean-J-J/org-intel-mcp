@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "org-intel-mcp": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["/Users/seanj/Desktop/org-research/dist/server.js"],
+      "env": {
+        "DEEPSEEK_API_KEY": "${DEEPSEEK_API_KEY}",
+        "TAVILY_API_KEY": "${TAVILY_API_KEY}",
+        "BING_API_KEY": "${BING_API_KEY}",
+        "SEARXNG_INSTANCES": "http://127.0.0.1:8080",
+        "PLAYWRIGHT_HEADLESS": "${PLAYWRIGHT_HEADLESS}"
+      }
+    }
+  }
+}

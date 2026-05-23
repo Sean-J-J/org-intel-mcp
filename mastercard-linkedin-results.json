@@ -1,0 +1,639 @@
+{
+  "searches": [
+    {
+      "query": "Mastercard \"MPGS\" OR \"Mastercard Payment Gateway\" Middle East",
+      "label": "MPGS_Product",
+      "profiles": [
+        {
+          "name": "Pratheesh P R",
+          "title": "Payment Gateway & EFTPOS Integration Specialist | Mastercard MPGS • CyberSource • FSS | UAE Fintech | Node.js, Flutter, SQL Server | SDK/API Development | Pine Labs",
+          "profileUrl": "https://www.linkedin.com/in/pratheeshpr/"
+        },
+        {
+          "name": "Clarissa Weber",
+          "title": "Engineer: Operations and Technology at Mastercard Payment Gateway Services",
+          "profileUrl": "https://www.linkedin.com/in/clarissa-weber-55484613/"
+        },
+        {
+          "name": "Komal K.",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/komalkatal/"
+        },
+        {
+          "name": "Ashwin Balakrishnan",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/ashwin-balakrishnan-927a02151/"
+        },
+        {
+          "name": "Mrunal Deshmukh",
+          "title": "SDE @Mastercard",
+          "profileUrl": "https://www.linkedin.com/in/mrunal-deshmukh-4a28b6229/"
+        },
+        {
+          "name": "Apsara Pathan",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/apsara-pathan-b87621125/"
+        },
+        {
+          "name": "Chinedu Uwanamodo",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/chinedu-uwanamodo-46a47a161/"
+        },
+        {
+          "name": "Mohammed Faizal",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/mfaizalp/"
+        },
+        {
+          "name": "Usama Ansare",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/usama-ansare-22585b134/"
+        },
+        {
+          "name": "Deepak Sant Lal Juneja",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/deepak-sant-lal-juneja-28a2a3aa/"
+        }
+      ]
+    },
+    {
+      "query": "Mastercard Payment Gateway Services director head Middle East",
+      "label": "MPGS_Leadership",
+      "profiles": [
+        {
+          "name": "John Shao",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/john-shao-34a996251/"
+        },
+        {
+          "name": "Suraj Shinde",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/suraj-shinde-87402a89/"
+        },
+        {
+          "name": "Talia Darby",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/talia-darby-b2463a24/"
+        }
+      ]
+    },
+    {
+      "query": "Mastercard \"Payment Gateway\" director head \"Middle East\" OR \"UAE\" OR \"Dubai\" OR \"Saudi\"",
+      "label": "Gateway_Directors",
+      "profiles": []
+    },
+    {
+      "query": "Mastercard \"Digital Payments\" OR \"Gateway\" vice president regional head Middle East",
+      "label": "Payments_Leadership",
+      "profiles": [
+        {
+          "name": "Vincent Patru",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/vincent-patru-464534/"
+        },
+        {
+          "name": "Hugo Reijkens",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/hugoreijkens/"
+        },
+        {
+          "name": "Christophe Zehnacker",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/christophe-zehnacker-94a6a2/"
+        },
+        {
+          "name": "George Owuor",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/georgeowuor/"
+        },
+        {
+          "name": "Davide Messina",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/davide-messina-b73197/"
+        },
+        {
+          "name": "Alexander Polash",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/alexpolash/"
+        },
+        {
+          "name": "Prasad Nagula",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/prasad-nagula-9a21012/"
+        },
+        {
+          "name": "Nikhil Vij",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/nikhil-vij-47993726/"
+        },
+        {
+          "name": "Bao Viet L.",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/bao-viet-le/"
+        },
+        {
+          "name": "Joanna Skoczylas",
+          "title": "Product Management | Digital Payments | Mastercard Europe",
+          "profileUrl": "https://www.linkedin.com/in/joannaskoczylas/"
+        }
+      ]
+    },
+    {
+      "query": "Mastercard \"Relationship Management\" OR \"Account Management\" director \"Middle East\"",
+      "label": "RM_Directors",
+      "profiles": [
+        {
+          "name": "Alysha Stojko-Down",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/alysha-stojko-down-151887169/"
+        },
+        {
+          "name": "Marcos Mora",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/marcos-mora-5645315/"
+        }
+      ]
+    },
+    {
+      "query": "Mastercard \"Country Manager\" OR \"Market Manager\" OR \"Business Head\" Middle East",
+      "label": "Country_Managers",
+      "profiles": [
+        {
+          "name": "Gergely Markus",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/gergely-markus-72b7464b/"
+        },
+        {
+          "name": "Eyal Paz",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/eyalpaz/"
+        },
+        {
+          "name": "Luca Corti",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/luca-corti-88163aa/"
+        },
+        {
+          "name": "Marta Zycinska, MBA",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/marta-zycinska/"
+        },
+        {
+          "name": "Ruth Riviere",
+          "title": "Country Manager at Mastercard",
+          "profileUrl": "https://www.linkedin.com/in/ruthwhitten/"
+        },
+        {
+          "name": "Tomás Alonso Martínez",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/tomasam86/"
+        },
+        {
+          "name": "Erdem Çakar",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/erdemcakar/"
+        },
+        {
+          "name": "Michael Broenner",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/michael-broenner/"
+        },
+        {
+          "name": "Pablo Cuaron",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/pablo-cuaron-57000339/"
+        },
+        {
+          "name": "Arslan Khan",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/arslansaleem/"
+        }
+      ]
+    },
+    {
+      "query": "Mastercard \"Business Development\" OR \"Partnerships\" director head Middle East UAE",
+      "label": "BizDev",
+      "profiles": [
+        {
+          "name": "Yoshifumi Machida",
+          "title": "Mastercard - Director, Account Management & Business Development",
+          "profileUrl": "https://www.linkedin.com/in/yoshifumi-machida-89936922a/"
+        },
+        {
+          "name": "Fidèle Armstrong",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/fidelearmstrong/"
+        },
+        {
+          "name": "Erica Katayama",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/erica-katayama/"
+        },
+        {
+          "name": "Petra Zabloudilová",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/petra-zabloudilov%C3%A1-3914391b5/"
+        },
+        {
+          "name": "Ismail LAALEJ",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/ismail-laalej-b50aba16/"
+        },
+        {
+          "name": "Berenice Sosa",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/berenice-sosa/"
+        },
+        {
+          "name": "Chingiz MAMMADOV",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/chingiz-mammadov-0a705938/"
+        },
+        {
+          "name": "Fanny Ögren",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/fanny-%C3%B6gren-218811175/"
+        },
+        {
+          "name": "Joyti Sarwalia",
+          "title": "Director, Business Development at Mastercard",
+          "profileUrl": "https://www.linkedin.com/in/joyti-sarwalia-57b0b97b/"
+        },
+        {
+          "name": "Michele L. Featherstone",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/michelefeatherstone/"
+        }
+      ]
+    },
+    {
+      "query": "Mastercard \"Middle East\" vice president OR \"general manager\" OR \"head of\"",
+      "label": "ME_Leadership",
+      "profiles": [
+        {
+          "name": "Marcelo G. Tangioni",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/marcelotangioni/"
+        },
+        {
+          "name": "Victor, Vusumuzi Ndlovu",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/victor-vusumuzi-ndlovu-31199b21/"
+        },
+        {
+          "name": "Suleyman Sozeri",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/suleyman-sozeri-2a8558/"
+        },
+        {
+          "name": "Alan Ferguson",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/aiferguson/"
+        },
+        {
+          "name": "Rama Alsayegh",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/ramaalsayegh/"
+        },
+        {
+          "name": "Alejandro Banegas",
+          "title": "VP & Head of Digital Partners",
+          "profileUrl": "https://www.linkedin.com/in/abanegas/"
+        }
+      ]
+    },
+    {
+      "query": "Mastercard \"Division President\" OR \"Regional Head\" Middle East Africa",
+      "label": "Division_Leadership",
+      "profiles": [
+        {
+          "name": "Marcelo G. Tangioni",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/marcelotangioni/"
+        },
+        {
+          "name": "Mike McCarthy",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/mikemccarthymastercard/"
+        },
+        {
+          "name": "Safdar Khan",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/safdar-khan-684b392/"
+        },
+        {
+          "name": "Paloma Real",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/paloma-real-81976b/"
+        },
+        {
+          "name": "Thomas Kuncheria",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/thomas-kuncheria-8744812/"
+        },
+        {
+          "name": "Paul Monnington",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/paulmonnington/"
+        },
+        {
+          "name": "Deepika Dudeja",
+          "title": "• 3 度+",
+          "profileUrl": "https://www.linkedin.com/in/deepika-dudeja-7730899/"
+        }
+      ]
+    },
+    {
+      "query": "Mastercard \"Saudi Arabia\" OR \"UAE\" director head",
+      "label": "GCC_Heads",
+      "profiles": []
+    }
+  ],
+  "uniqueProfiles": [
+    {
+      "name": "Pratheesh P R",
+      "title": "Payment Gateway & EFTPOS Integration Specialist | Mastercard MPGS • CyberSource • FSS | UAE Fintech | Node.js, Flutter, SQL Server | SDK/API Development | Pine Labs",
+      "profileUrl": "https://www.linkedin.com/in/pratheeshpr/"
+    },
+    {
+      "name": "Clarissa Weber",
+      "title": "Engineer: Operations and Technology at Mastercard Payment Gateway Services",
+      "profileUrl": "https://www.linkedin.com/in/clarissa-weber-55484613/"
+    },
+    {
+      "name": "Komal K.",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/komalkatal/"
+    },
+    {
+      "name": "Ashwin Balakrishnan",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/ashwin-balakrishnan-927a02151/"
+    },
+    {
+      "name": "Mrunal Deshmukh",
+      "title": "SDE @Mastercard",
+      "profileUrl": "https://www.linkedin.com/in/mrunal-deshmukh-4a28b6229/"
+    },
+    {
+      "name": "Apsara Pathan",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/apsara-pathan-b87621125/"
+    },
+    {
+      "name": "Chinedu Uwanamodo",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/chinedu-uwanamodo-46a47a161/"
+    },
+    {
+      "name": "Mohammed Faizal",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/mfaizalp/"
+    },
+    {
+      "name": "Usama Ansare",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/usama-ansare-22585b134/"
+    },
+    {
+      "name": "Deepak Sant Lal Juneja",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/deepak-sant-lal-juneja-28a2a3aa/"
+    },
+    {
+      "name": "John Shao",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/john-shao-34a996251/"
+    },
+    {
+      "name": "Suraj Shinde",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/suraj-shinde-87402a89/"
+    },
+    {
+      "name": "Talia Darby",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/talia-darby-b2463a24/"
+    },
+    {
+      "name": "Vincent Patru",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/vincent-patru-464534/"
+    },
+    {
+      "name": "Hugo Reijkens",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/hugoreijkens/"
+    },
+    {
+      "name": "Christophe Zehnacker",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/christophe-zehnacker-94a6a2/"
+    },
+    {
+      "name": "George Owuor",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/georgeowuor/"
+    },
+    {
+      "name": "Davide Messina",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/davide-messina-b73197/"
+    },
+    {
+      "name": "Alexander Polash",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/alexpolash/"
+    },
+    {
+      "name": "Prasad Nagula",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/prasad-nagula-9a21012/"
+    },
+    {
+      "name": "Nikhil Vij",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/nikhil-vij-47993726/"
+    },
+    {
+      "name": "Bao Viet L.",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/bao-viet-le/"
+    },
+    {
+      "name": "Joanna Skoczylas",
+      "title": "Product Management | Digital Payments | Mastercard Europe",
+      "profileUrl": "https://www.linkedin.com/in/joannaskoczylas/"
+    },
+    {
+      "name": "Alysha Stojko-Down",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/alysha-stojko-down-151887169/"
+    },
+    {
+      "name": "Marcos Mora",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/marcos-mora-5645315/"
+    },
+    {
+      "name": "Gergely Markus",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/gergely-markus-72b7464b/"
+    },
+    {
+      "name": "Eyal Paz",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/eyalpaz/"
+    },
+    {
+      "name": "Luca Corti",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/luca-corti-88163aa/"
+    },
+    {
+      "name": "Marta Zycinska, MBA",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/marta-zycinska/"
+    },
+    {
+      "name": "Ruth Riviere",
+      "title": "Country Manager at Mastercard",
+      "profileUrl": "https://www.linkedin.com/in/ruthwhitten/"
+    },
+    {
+      "name": "Tomás Alonso Martínez",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/tomasam86/"
+    },
+    {
+      "name": "Erdem Çakar",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/erdemcakar/"
+    },
+    {
+      "name": "Michael Broenner",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/michael-broenner/"
+    },
+    {
+      "name": "Pablo Cuaron",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/pablo-cuaron-57000339/"
+    },
+    {
+      "name": "Arslan Khan",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/arslansaleem/"
+    },
+    {
+      "name": "Yoshifumi Machida",
+      "title": "Mastercard - Director, Account Management & Business Development",
+      "profileUrl": "https://www.linkedin.com/in/yoshifumi-machida-89936922a/"
+    },
+    {
+      "name": "Fidèle Armstrong",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/fidelearmstrong/"
+    },
+    {
+      "name": "Erica Katayama",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/erica-katayama/"
+    },
+    {
+      "name": "Petra Zabloudilová",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/petra-zabloudilov%C3%A1-3914391b5/"
+    },
+    {
+      "name": "Ismail LAALEJ",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/ismail-laalej-b50aba16/"
+    },
+    {
+      "name": "Berenice Sosa",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/berenice-sosa/"
+    },
+    {
+      "name": "Chingiz MAMMADOV",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/chingiz-mammadov-0a705938/"
+    },
+    {
+      "name": "Fanny Ögren",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/fanny-%C3%B6gren-218811175/"
+    },
+    {
+      "name": "Joyti Sarwalia",
+      "title": "Director, Business Development at Mastercard",
+      "profileUrl": "https://www.linkedin.com/in/joyti-sarwalia-57b0b97b/"
+    },
+    {
+      "name": "Michele L. Featherstone",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/michelefeatherstone/"
+    },
+    {
+      "name": "Marcelo G. Tangioni",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/marcelotangioni/"
+    },
+    {
+      "name": "Victor, Vusumuzi Ndlovu",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/victor-vusumuzi-ndlovu-31199b21/"
+    },
+    {
+      "name": "Suleyman Sozeri",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/suleyman-sozeri-2a8558/"
+    },
+    {
+      "name": "Alan Ferguson",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/aiferguson/"
+    },
+    {
+      "name": "Rama Alsayegh",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/ramaalsayegh/"
+    },
+    {
+      "name": "Alejandro Banegas",
+      "title": "VP & Head of Digital Partners",
+      "profileUrl": "https://www.linkedin.com/in/abanegas/"
+    },
+    {
+      "name": "Mike McCarthy",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/mikemccarthymastercard/"
+    },
+    {
+      "name": "Safdar Khan",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/safdar-khan-684b392/"
+    },
+    {
+      "name": "Paloma Real",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/paloma-real-81976b/"
+    },
+    {
+      "name": "Thomas Kuncheria",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/thomas-kuncheria-8744812/"
+    },
+    {
+      "name": "Paul Monnington",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/paulmonnington/"
+    },
+    {
+      "name": "Deepika Dudeja",
+      "title": "• 3 度+",
+      "profileUrl": "https://www.linkedin.com/in/deepika-dudeja-7730899/"
+    }
+  ]
+}

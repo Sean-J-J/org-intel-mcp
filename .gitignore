@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.linkedin-profile/
+data/
+reports/
+.cache/
+.claude/settings.local.json

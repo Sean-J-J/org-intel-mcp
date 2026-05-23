@@ -649,12 +649,27 @@ async function startResearch() {
 }
 
 function copyReport() {
-  const text = document.getElementById("reportContent").textContent;
-  navigator.clipboard.writeText(text).then(() => {
-    const btn = document.querySelector(".copy-btn");
-    btn.textContent = "Copied!";
-    setTimeout(() => { btn.textContent = "Copy to clipboard"; }, 2000);
-  });
+  var text = document.getElementById("reportContent").textContent;
+  var btn = document.querySelector(".copy-btn");
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(function() {
+      btn.textContent = "Copied!";
+      setTimeout(function() { btn.textContent = "Copy to clipboard"; }, 2000);
+    }).catch(function() {
+      btn.textContent = "Copy failed";
+      setTimeout(function() { btn.textContent = "Copy to clipboard"; }, 2000);
+    });
+  } else {
+    var ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed"; ta.style.left = "-9999px";
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand("copy"); btn.textContent = "Copied!"; }
+    catch(e) { btn.textContent = "Copy failed"; }
+    document.body.removeChild(ta);
+    setTimeout(function() { btn.textContent = "Copy to clipboard"; }, 2000);
+  }
 }
 
 async function logout() {
